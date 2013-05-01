@@ -1,4 +1,15 @@
-copy C:\Proyectos\AppModel\src\*.* C:\Tomcat\webapps\AppModel\WEB.INF\classes\
-copy C:\Proyectos\AppModel\war\*.* C:\Tomcat\webapps\AppModel\
-copy C:\Proyectos\AppModel\index\*.* C:\Tomcat\webapps\AppModel\
-copy C:\Proyectos\AppModel\web\*.* C:\Tomcat\webapps\AppModel\WEB.INF\
+copy C:\Proyectos\myrepo\src\org\app1\domain\*.class C:\Tomcat\webapps\myrepo\WEB-INF\classes\org\app1\domain
+copy C:\Proyectos\myrepo\src\org\app1\logic\collection\*.class C:\Tomcat\webapps\myrepo\WEB-INF\classes\org\app1\logic\collection
+copy C:\Proyectos\myrepo\src\org\app1\logic\updater\*.class C:\Tomcat\webapps\myrepo\WEB-INF\classes\org\app1\logic\updater
+copy C:\Proyectos\myrepo\src\org\app1\jdbc\*.class C:\Tomcat\webapps\myrepo\WEB-INF\classes\org\app1\jdbc
+copy C:\Proyectos\myrepo\src\org\app1\web\servlets\*.class C:\Tomcat\webapps\myrepo\WEB-INF\classes\org\app1\web\servlets
+copy C:\Proyectos\myrepo\src\org\app1\web\tag\*.class C:\Tomcat\webapps\myrepo\WEB-INF\classes\org\app1\web\tag
+
+copy C:\Proyectos\myrepo\war\static\css\*.* C:\Tomcat\webapps\myrepo\static\css
+copy C:\Proyectos\myrepo\war\static\images\*.* C:\Tomcat\webapps\myrepo\static\images
+copy C:\Proyectos\myrepo\war\static\js\*.* C:\Tomcat\webapps\myrepo\static\js
+copy C:\Proyectos\myrepo\war\WEB-INF\jsp\*.* C:\Tomcat\webapps\myrepo\jsp
+copy C:\Proyectos\myrepo\war\WEB-INF\tld\*.* C:\Tomcat\webapps\myrepo\tld
+
+copy C:\Proyectos\myrepo\index\*.* C:\Tomcat\webapps\myrepo
+copy C:\Proyectos\myrepo\web\*.* C:\Tomcat\webapps\myrepo\WEB-INF
